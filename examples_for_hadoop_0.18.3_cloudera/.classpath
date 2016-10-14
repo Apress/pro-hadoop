@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/apress/hadoopbook/examples/advancedtechniques/|com/apress/hadoopbook/examples/ch5/SampleMapperRunner.java|com/apress/hadoopbook/examples/ch5/TotalOrderSimpleReduce.java|com/apress/hadoopbook/examples/ch8/ChainMappingExample.java|com/apress/hadoopbook/examples/ch9/ApacheLogTransformMapper.java|com/apress/hadoopbook/examples/ch9/BruteForceMapReduceDriver.java|com/apress/hadoopbook/examples/ch9/KeyValidatingMapper.java|com/apress/hadoopbook/examples/ch9/ReducerForStandardComparator.java|com/apress/hadoopbook/examples/jobconf/DelegatedKeyFieldPartitioner.java|com/apress/hadoopbook/examples/jobconf/KeyFieldDemonstrator.java|com/apress/hadoopbook/examples/jobconf/OutputComparatorAndGrouping.java|org/apache/hadoop/mapred/lib/|com/apress/hadoopbook/examples/ch8/ChainMappingExampleMapperReducer.java" including="com/|org/" kind="src" path="src"/>
+	<classpathentry kind="src" path="other_licenses"/>
+	<classpathentry kind="src" path="bsd_license"/>
+	<classpathentry kind="src" path="apache_licensed_lib"/>
+	<classpathentry kind="src" path="src/config"/>
+	<classpathentry kind="src" path="test/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-cli-2.0-SNAPSHOT.jar" sourcepath="apache_licensed_lib/commons-cli-2.0-SNAPSHOT-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-codec-1.3.jar" sourcepath="apache_licensed_lib/commons-codec-1.3-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-el.jar" sourcepath="apache_licensed_lib/commons-el-1.0-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-httpclient-3.0.1.jar" sourcepath="apache_licensed_lib/commons-httpclient-3.0.1-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-lang-2.4.jar" sourcepath="apache_licensed_lib/commons-lang-2.4-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-logging-1.0.4.jar" sourcepath="apache_licensed_lib/commons-logging-1.0.4-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-logging-api-1.0.4.jar" sourcepath="apache_licensed_lib/commons-logging-1.0.4-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/commons-net-1.4.1.jar" sourcepath="apache_licensed_lib/commons-net-1.4.1-src.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/jasper-compiler.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/jasper-runtime.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/jetty-5.1.4.jar" sourcepath="apache_licensed_lib/jetty-5.1.4-all.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/oro-2.0.8.jar" sourcepath="apache_licensed_lib/jakarta-oro-2.0.8.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/slf4j-api-1.4.3.jar" sourcepath="other_licenses/slf4j-1.4.3.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/slf4j-log4j12-1.4.3.jar" sourcepath="other_licenses/slf4j-1.4.3.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/xmlenc-0.52.jar" sourcepath="bsd_license/xmlenc-0.52.zip"/>
+	<classpathentry kind="lib" path="bsd_license/xstream-1.3.1.jar"/>
+	<classpathentry kind="lib" path="other_licenses/junit-dep-4.5.jar" sourcepath="other_licenses/junit4.5.zip"/>
+	<classpathentry kind="lib" path="other_licenses/junit4.5.zip"/>
+	<classpathentry kind="lib" path="other_licenses/saxon.jar" sourcepath="other_licenses/saxon6-5-5.zip"/>
+	<classpathentry kind="lib" path="other_licenses/saxon6-5-5.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/spring.jar" sourcepath="apache_licensed_lib/spring-framework-2.5.5-with-dependencies.zip"/>
+	<classpathentry kind="lib" path="other_licenses/junit-4.5.jar" sourcepath="other_licenses/junit4.5.zip"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hadoop-0.18.3-ant.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hadoop-0.18.3-core.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hadoop-0.18.3-examples.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hadoop-0.18.3-fairscheduler.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hadoop-0.18.3-scribe-log4j.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hadoop-0.18.3-test.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hadoop-0.18.3-tools.jar"/>
+	<classpathentry kind="lib" path="apache_licensed_lib/hsqldb.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

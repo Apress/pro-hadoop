@@ -1,0 +1,13 @@
+<xml>
+<target name="part 05">part 05</target>
+<target name="part 04"><name>part 04</name></target>
+<target name="part 03"><name>part 03</name><value>More things</value></target>
+<target name="part 02">
+	<name>part 02</name>
+	<description>Multi line
+	text block>
+	</description>
+</target>
+<target name="part 01"><name>part 01</name>
+</target>
+</xml>

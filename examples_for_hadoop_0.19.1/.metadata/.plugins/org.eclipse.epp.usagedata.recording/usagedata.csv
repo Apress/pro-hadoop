@@ -1,0 +1,11 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.102.v200805301834,org.eclipse.jst.ws.axis2.creation.core,1242004579910
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.104.v200810151442,org.eclipse.jst.ws.axis2.consumption.core,1242004579912
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.102.v200805301834,org.eclipse.jst.ws.axis2.consumption.core,1242004579919
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.306.v200811200248,org.eclipse.jst.ws.axis.creation.ui,1242004579922
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.305.v200809301934,org.eclipse.jst.ws.axis.consumption.ui,1242004579954
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.308.v200901212148,org.eclipse.jst.ws.creation.ui,1242004579956
+stopped,bundle,org.eclipse.jst.ws.consumption.ui,1.1.4.v200901212148,org.eclipse.jst.ws.consumption.ui,1242004579977
+stopped,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.201.v200811062130,org.eclipse.jst.j2ee.webservice.ui,1242004579977
+stopped,bundle,org.eclipse.jst.ejb.ui,1.1.203.v200810010400,org.eclipse.jst.ejb.ui,1242004580035
+stopped,bundle,org.eclipse.jst.servlet.ui,1.1.203.v200810222000,org.eclipse.jst.servlet.ui,1242004580073

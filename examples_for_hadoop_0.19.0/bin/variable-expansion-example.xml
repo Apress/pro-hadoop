@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+   <property>
+       <name>no.expansion</name>
+       <value>no.expansion Value</value>
+   </property>
+   <property>
+       <name>expansion.from.configuration</name>
+       <value>The value of no.expansion is ${no.expansion}</value>
+   </property>
+   <property>
+       <name>java.io.tmpdir</name>
+       <value>failed attempt to override a System.properties value for variable expansion</value>
+   </property>
+   <property>
+       <name>order.of.expansion</name>
+       <value>The value of java.io.tmpdir from System.properties: ${java.io.tmpdir}</value>
+   </property>
+   <property>
+       <name>expansion.from.JDK.properties</name>
+       <value>The value of java.class.path from System.properties: ${java.io.tmpdir}</value>
+   </property>
+   <property>
+       <name>nested.variable.expansion</name>
+       <value>Will expansion.from.configuration's value have substition: [${expansion.from.configuration}]</value>
+   </property>
+</configuration>

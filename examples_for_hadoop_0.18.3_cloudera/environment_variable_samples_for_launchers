@@ -1,0 +1,22 @@
+#
+# The eclipse launchers use these environment variables to configure
+# the jobs to be launched.
+# Tailor these for your site.
+# In particular the NameNodeHost and the JobTrackerHost
+# 
+export DefaultLocalCluster="-jt local -fs file:/// -D hadoop.tmp.dir=/tmp --deleteOutput"
+
+export NameNodeHost="cloud9"
+export NameNodePort="8020"
+export NameNode="hdfs://${NameNodeHost}:${NameNodePort}/"
+
+export JobTrackerHost="cloud9"
+export JobTrackerPort="8021"
+export JobTracker="${JobTrackerHost}:${JobTrackerPort}"
+
+export DefaultCluster="-fs ${NameNode} -jt ${JobTracker}"
+
+# This is structured so that additional jars may be added to libjars
+# by just appending a ',jar' immediately after the ${env_var:StandardClusterExampleArguments}
+export StandardClusterExampleArguments="${DefaultCluster} -libjars \${project_loc}/hadoopprobook.jar,\${project_loc}/apache_licensed_lib/commons-lang-2.4.jar"
+

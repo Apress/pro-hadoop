@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="SampleMapperJob.mapper.bean.name"
+	   class="com.apress.hadoopbook.examples.ch5.SampleMapperRunner.SampleMapper"
+	   lazy-init="true"
+	   scope="singleton">
+	   <description> Simple bean definition to provide an example for using spring to
+	   initialize context in a Mapper class.</description>
+	   <property name="springSetString"><value>SetFromDefaultFile</value></property>
+	   <property name="springSetInt"><value>37</value></property>
+    
+    
+  </bean>
+
+</beans>
